@@ -14,5 +14,9 @@ def projects():
 def education():
     return render_template('education.html')
 
+@app.route('/experience')
+def experience():
+    return render_template('experience.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
